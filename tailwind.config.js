@@ -1,5 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
+  safelist: [
+    // Exemplo de adicionar classes dinâmicas
+    ...Array.from({ length: 12 }, (_, i) => `col-start-${i + 1}`),
+    ...Array.from({ length: 12 }, (_, i) => `col-end-${i + 1}`),
+    ...Array.from({ length: 12 }, (_, i) => `row-start-${i + 1}`),
+    ...Array.from({ length: 12 }, (_, i) => `row-end-${i + 1}`),
+  ],
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",

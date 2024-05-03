@@ -1,33 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@font-face {
+    font-family: KenokyLight;
+    src: url('/fonts/kenoky/kenoky_light.ttf')  format('truetype');
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+    font-family: HarmondExtraboldExpanded;
+    src: url('/fonts/harmond/harmond_extrabold_expanded.otf')  format('opentype');
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@font-face {
+    font-family: HarmondExtraboldItalicExpanded;
+    src: url('/fonts/harmond/harmond_extrabold_italic_expanded.otf')  format('opentype');
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+@font-face {
+    font-family: HarmondSemiboldCondensed;
+    src: url('/fonts/harmond/harmond_semibold_condensed.otf')  format('opentype');
+}
+
+
+@font-face {
+    font-family: HarmondSemiboldItalicCondensed;
+    src: url('/fonts/harmond/harmond_semibold_italic_condensed.otf')  format('opentype');
+}
+
+.harmond-semibold {
+    font-family: 'HarmondSemiboldCondensed';
+}
+
+.kenoky-light {
+    font-family: 'KenokyLight';
+}
+
+.montserrat {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.modern-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #d6dee1;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
 }
