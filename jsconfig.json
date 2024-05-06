@@ -4,6 +4,7 @@
       "@/*": ["./*"],
       "@public/*": ["./public/*"],
       "@components/*": ["./app/_components/*"],
+      "@icons": ["./app/_components/assets/icons/index.js"],
     }
   }
 }

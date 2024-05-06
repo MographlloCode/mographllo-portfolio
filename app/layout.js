@@ -1,5 +1,7 @@
 import { Providers } from "@/providers";
 import "./globals.css";
+import PageHeader from "./_components/parts/Header/PageHeader";
+import PageFooter from "./_components/parts/Footer/PageFooter";
 
 export const metadata = {
   title: "Gustavo Mello // Portfolio",
@@ -14,7 +16,11 @@ export default function RootLayout({ children }) {
       </head>
       <body className="bg-[#F4E285] dark:bg-[#00171F] w-screen h-screen overflow-y-auto overflow-x-hidden">
           <Providers>
-            {children}
+            <PageHeader />
+              <main className='flex flex-col w-screen px-8 pt-32 pb-16 xl:py-32 xl:p-24 gap-4 xl:gap-16 overflow-x-hidden'>
+                {children}
+              </main>
+            <PageFooter />
           </Providers>
       </body>
     </html>
