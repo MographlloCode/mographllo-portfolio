@@ -81,7 +81,7 @@ const Resume = ({resume_data}) => {
                     </div>
                 </section>
                 <section className='flex flex-col gap-4 w-fit'>
-                <h1 className='montserrat font-semibold text-xl text-[#00171F] dark:text-[#F8F7FF]'>Let's Talk!</h1>
+                <h1 className='montserrat font-semibold text-xl text-[#00171F] dark:text-[#F8F7FF]'>Let&apos;s Talk!</h1>
                 <div className='flex gap-8 text-sm xl:text-xl text-[#00171F] dark:text-[#F8F7FF] montserrat px-4 max-w-[36rem] flex-wrap'>
                     <Link href={'https://www.linkedin.com/in/Mographllo'} target='_bank' className='flex flex-col'><span className='text-sm font-light'>LinkedIn</span><span className='font-medium'>Mographllo</span></Link>
                     <Link href={'https://www.github.com/MographlloCode'} target='_bank' className='flex flex-col'><span className='text-sm font-light'>Github</span><span className='font-medium'>MographlloCode</span></Link>
