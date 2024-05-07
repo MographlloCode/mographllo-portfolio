@@ -1,90 +1,5 @@
 import React from 'react'
-import ProjectCard from './ProjectCard'
 import ProjectRow from './ProjectRow'
-
-const first_row_cards_data = [
-    {
-        rowStart: "1",
-        rowEnd: "5",
-        size: "large",
-        title: "Project Title",
-        subtitle: "Project Subtitle",
-        projectLink: "/project",
-    },
-    {
-        rowStart: "5",
-        rowEnd: "9",
-        size: "small",
-        title: "Project Title",
-        subtitle: "Project Subtitle",
-        projectLink: "/project",
-
-    },
-    {
-        rowStart: "9",
-        rowEnd: "12",
-        size: "mobile",
-        title: "Project Title",
-        subtitle: "Project Subtitle",
-        mobile: true,
-        projectLink: "/project",
-    },
-]
-
-const second_row_cards_data = [
-    {
-        rowStart: "1",
-        rowEnd: "4",
-        size: "medium",
-        title: "Project Title",
-        subtitle: "Project Subtitle",
-        projectLink: "/project",
-    },
-    {
-        rowStart: "4",
-        rowEnd: "10",
-        size: "medium",
-        title: "Project Title",
-        subtitle: "Project Subtitle",
-        projectLink: "/project",
-    },
-    {
-        rowStart: "10",
-        rowEnd: "12",
-        size: "mobile",
-        title: "Project Title",
-        subtitle: "Project Subtitle",
-        mobile: true,
-        projectLink: "/project",
-    },
-]
-
-const third_row_cards_data = [
-    {
-        rowStart: "1",
-        rowEnd: "5",
-        size: "large",
-        title: "Project Title",
-        subtitle: "Project Subtitle",
-    },
-    {
-        rowStart: "5",
-        rowEnd: "7",
-        size: "small",
-        title: "Project Title",
-        subtitle: "Project Subtitle",
-    },
-]
-
-const last_row_cards_data = [
-    {
-        rowStart: "1",
-        rowEnd: "7",
-        size: "tall",
-        title: "Project Title",
-        subtitle: "Project Subtitle",
-    }
-]
 
 const projectsData = [
     {
@@ -94,28 +9,28 @@ const projectsData = [
                 rowStart: "1",
                 rowEnd: "5",
                 size: "large",
-                title: "Project Title",
-                subtitle: "Project Subtitle",
-                projectImage: "/img/tripio.png",
+                title: "Real Trust Realtor",
+                subtitle: "Real Trust Realtor",
+                projectImage: "/img/real_trust_header.png",
             },
             {
                 projectId: "2",
                 rowStart: "5",
                 rowEnd: "9",
                 size: "small",
-                title: "Project Title",
-                subtitle: "Project Subtitle",
-                projectImage: "/img/tripio.png",
+                title: "Cycle",
+                subtitle: "Cycle APP",
+                projectImage: "/img/cycles_header.png",
             },
             {
                 projectId: "3",
                 rowStart: "9",
                 rowEnd: "12",
                 size: "mobile",
-                title: "Project Title",
-                subtitle: "Project Subtitle",
+                title: "Byte Bank",
+                subtitle: "Byte Bank APP",
                 mobile: true,
-                projectImage: "/img/tripio.png",
+                projectImage: "/img/byte_bank_header.png",
             },
         ],
         "mobile": true
@@ -127,28 +42,28 @@ const projectsData = [
                 rowStart: "1",
                 rowEnd: "4",
                 size: "medium",
-                title: "Project Title",
-                subtitle: "Project Subtitle",
-                projectImage: "/img/tripio.png",
+                title: "Legacy eSports",
+                subtitle: "Legacy eSports",
+                projectImage: "/img/legacy_header.png",
             },
             {
                 projectId: "5",
                 rowStart: "4",
                 rowEnd: "10",
                 size: "medium",
-                title: "Project Title",
-                subtitle: "Project Subtitle",
-                projectImage: "/img/tripio.png",
+                title: "Byte Bank",
+                subtitle: "Byte Bank",
+                projectImage: "/img/byte_bank_header.png",
             },
             {
                 projectId: "6",
                 rowStart: "10",
                 rowEnd: "12",
                 size: "mobile",
-                title: "Project Title",
-                subtitle: "Project Subtitle",
+                title: "Wellness",
+                subtitle: "Wellness APP",
                 mobile: true,
-                projectImage: "/img/tripio.png",
+                projectImage: "/img/wellness_header.png",
             },
         ],
         "mobile": false
@@ -160,18 +75,18 @@ const projectsData = [
                 rowStart: "1",
                 rowEnd: "5",
                 size: "large",
-                title: "Project Title",
-                subtitle: "Project Subtitle",
-                projectImage: "/img/tripio.png",
+                title: "Goal",
+                subtitle: "Goal APP",
+                projectImage: "/img/goal_header.png",
             },
             {
                 projectId: "8",
                 rowStart: "5",
                 rowEnd: "7",
                 size: "small",
-                title: "Project Title",
-                subtitle: "Project Subtitle",
-                projectImage: "/img/tripio.png",
+                title: "Wellness",
+                subtitle: "Wellness APP",
+                projectImage: "/img/wellness_header.png",
             },
         ],
         "mobile": false
@@ -183,9 +98,9 @@ const projectsData = [
                 rowStart: "1",
                 rowEnd: "7",
                 size: "tall",
-                title: "Project Title",
-                subtitle: "Project Subtitle",
-                projectImage: "/img/tripio.png",
+                title: "Evo FITI",
+                subtitle: "Evo FITI APP",
+                projectImage: "/img/evo_fiti_header.png",
             }
         ],
         "mobile": false

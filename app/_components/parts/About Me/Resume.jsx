@@ -64,19 +64,39 @@ const Resume = ({resume_data}) => {
                     <h1 className='montserrat font-semibold text-xl text-[#00171F] dark:text-[#F8F7FF]'>Projects</h1>
                     <div className='flex gap-4 overflow-y-auto max-w-[1200px] p-4'>
                         <ResumeProject
-                            project_title='Valorant Analysis'
-                            project_description='Platform for Players/Coaches to Analyze Valorant VODs'
-                            project_image='/img/tripio.png'
+                            project_title='Real Trust'
+                            project_description='Realtor Platform'
+                            project_image='/img/real_trust_header.png'
                         />
                         <ResumeProject
-                            project_title='Valorant Analysis'
-                            project_description='Platform for Players/Coaches to Analyze Valorant VODs'
-                            project_image='/img/tripio.png'
+                            project_title='Cycle'
+                            project_description='Eco-Frienldy APP'
+                            project_image='/img/cycles_header.png'
                         />
                         <ResumeProject
-                            project_title='Valorant Analysis'
-                            project_description='Platform for Players/Coaches to Analyze Valorant VODs'
-                            project_image='/img/tripio.png'
+                            project_title='Legacy eSports'
+                            project_description='eSports Team Website'
+                            project_image='/img/legacy_header.png'
+                        />
+                        <ResumeProject
+                            project_title='Byte Bank'
+                            project_description='Fictional Banking Landing PAge'
+                            project_image='/img/byte_bank_header.png'
+                        />
+                        <ResumeProject
+                            project_title='Wellness'
+                            project_description='Finantial APP'
+                            project_image='/img/wellness_header.png'
+                        />
+                        <ResumeProject
+                            project_title='Goal'
+                            project_description='Sports Analysis APP'
+                            project_image='/img/goal_header.png'
+                        />
+                        <ResumeProject
+                            project_title='Evo FITI'
+                            project_description='Training APP'
+                            project_image='/img/evo_fiti_header.png'
                         />
                     </div>
                 </section>
