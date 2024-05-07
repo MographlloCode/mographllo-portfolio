@@ -66,37 +66,37 @@ const Resume = ({resume_data}) => {
                         <ResumeProject
                             project_title='Real Trust'
                             project_description='Realtor Platform'
-                            project_image='/img/real_trust_header.png'
+                            project_image='/img/real_trust/real_trust_header.png'
                         />
                         <ResumeProject
                             project_title='Cycle'
                             project_description='Eco-Frienldy APP'
-                            project_image='/img/cycles_header.png'
+                            project_image='/img/cycle/cycle_header.png'
                         />
                         <ResumeProject
                             project_title='Legacy eSports'
                             project_description='eSports Team Website'
-                            project_image='/img/legacy_header.png'
+                            project_image='/img/legacy/legacy_header.png'
                         />
                         <ResumeProject
                             project_title='Byte Bank'
                             project_description='Fictional Banking Landing PAge'
-                            project_image='/img/byte_bank_header.png'
+                            project_image='/img/byte_bank/byte_bank_header.png'
                         />
                         <ResumeProject
                             project_title='Wellness'
                             project_description='Finantial APP'
-                            project_image='/img/wellness_header.png'
+                            project_image='/img/wellness/wellness_header.png'
                         />
                         <ResumeProject
                             project_title='Goal'
                             project_description='Sports Analysis APP'
-                            project_image='/img/goal_header.png'
+                            project_image='/img/goal/goal_header.png'
                         />
                         <ResumeProject
                             project_title='Evo FITI'
                             project_description='Training APP'
-                            project_image='/img/evo_fiti_header.png'
+                            project_image='/img/evo_fiti/evo_fiti_header.png'
                         />
                     </div>
                 </section>
