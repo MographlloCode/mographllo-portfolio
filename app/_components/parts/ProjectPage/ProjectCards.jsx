@@ -10,10 +10,10 @@ const ProjectCards = ({project_infos}) => {
               <div className='absolute inset-0 z-0'>
                 <Image src={card.card_image} alt='tripo' layout='fill' objectFit='cover' />
               </div>
-              <div className='hidden absolute z-10 h-full hover:bg-[#00171F]/90 dark:hover:bg-[#F4E285]/90 hover:backdrop-blur-sm group-hover:flex flex-col p-4 gap-2 md:gap-4 transition-all ease-in-out'>
+              {/* <div className='hidden absolute z-10 w-full h-full hover:bg-[#00171F]/90 dark:hover:bg-[#F4E285]/90 hover:backdrop-blur-sm group-hover:flex flex-col p-4 gap-2 md:gap-4 transition-all ease-in-out'>
                   <h1 className='kenoky-light text-2xl md:text-3xl text-[#F4E285] dark:text-[#00171F]'>{card.card_title}</h1>
                   <p className='montserrat text-xs md:text-lg max-w-[36rem] dark:text-[#00171F] text-[#F4E285] font-medium'>{card.card_description}</p>
-              </div>
+              </div> */}
             </div>
           ))}
       </div>

@@ -17,6 +17,7 @@ const ProjectRow = ({cards_data, mobile}) => {
           colEnd={card.colEnd}
           mobile={card.mobile}
           projectImage={card.projectImage}
+          techStack={card.techStack}
         />
       ))}
     </div>

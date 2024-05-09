@@ -9,9 +9,15 @@ const projectsData = [
                 rowStart: "1",
                 rowEnd: "5",
                 size: "large",
-                title: "Real Trust Realtor",
-                subtitle: "Real Trust Realtor",
+                title: "Real Trust",
+                subtitle: "",
                 projectImage: "/img/real_trust/real_trust_header.png",
+                techStack: [
+                    "html",
+                    "css",
+                    "javascript",
+                    "figma",
+                ]
             },
             {
                 projectId: "2",
@@ -19,8 +25,14 @@ const projectsData = [
                 rowEnd: "9",
                 size: "small",
                 title: "Cycle",
-                subtitle: "Cycle APP",
+                subtitle: "",
                 projectImage: "/img/cycle/cycle_header.png",
+                techStack: [
+                    "html",
+                    "css",
+                    "javascript",
+                    "figma",
+                ]
             },
             {
                 projectId: "4",
@@ -28,9 +40,15 @@ const projectsData = [
                 rowEnd: "12",
                 size: "mobile",
                 title: "Byte Bank",
-                subtitle: "Byte Bank APP",
+                subtitle: "",
                 mobile: true,
                 projectImage: "/img/byte_bank/byte_bank_header.png",
+                techStack: [
+                    "html",
+                    "css",
+                    "javascript",
+                    "figma",
+                ]
             },
         ],
         "mobile": true
@@ -43,8 +61,14 @@ const projectsData = [
                 rowEnd: "4",
                 size: "medium",
                 title: "Legacy eSports",
-                subtitle: "Legacy eSports",
+                subtitle: "",
                 projectImage: "/img/legacy/legacy_header.png",
+                techStack: [
+                    "html",
+                    "css",
+                    "javascript",
+                    "figma",
+                ]
             },
             {
                 projectId: "4",
@@ -52,8 +76,14 @@ const projectsData = [
                 rowEnd: "10",
                 size: "medium",
                 title: "Byte Bank",
-                subtitle: "Byte Bank",
+                subtitle: "",
                 projectImage: "/img/byte_bank/byte_bank_header.png",
+                techStack: [
+                    "html",
+                    "css",
+                    "javascript",
+                    "figma",
+                ]
             },
             {
                 projectId: "5",
@@ -61,9 +91,15 @@ const projectsData = [
                 rowEnd: "12",
                 size: "mobile",
                 title: "Wellness",
-                subtitle: "Wellness APP",
+                subtitle: "",
                 mobile: true,
                 projectImage: "/img/wellness/wellness_header.png",
+                techStack: [
+                    "html",
+                    "css",
+                    "javascript",
+                    "figma",
+                ]
             },
         ],
         "mobile": false
@@ -76,8 +112,14 @@ const projectsData = [
                 rowEnd: "5",
                 size: "large",
                 title: "Goal",
-                subtitle: "Goal APP",
+                subtitle: "",
                 projectImage: "/img/goal/goal_header.png",
+                techStack: [
+                    "html",
+                    "css",
+                    "javascript",
+                    "figma",
+                ]
             },
             {
                 projectId: "5",
@@ -85,8 +127,14 @@ const projectsData = [
                 rowEnd: "7",
                 size: "small",
                 title: "Wellness",
-                subtitle: "Wellness APP",
+                subtitle: "",
                 projectImage: "/img/wellness/wellness_header.png",
+                techStack: [
+                    "html",
+                    "css",
+                    "javascript",
+                    "figma",
+                ]
             },
         ],
         "mobile": false
@@ -99,8 +147,14 @@ const projectsData = [
                 rowEnd: "7",
                 size: "tall",
                 title: "Evo FITI",
-                subtitle: "Evo FITI APP",
+                subtitle: "",
                 projectImage: "/img/evo_fiti/evo_fiti_header.png",
+                techStack: [
+                    "html",
+                    "css",
+                    "javascript",
+                    "figma",
+                ]
             }
         ],
         "mobile": false

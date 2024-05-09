@@ -3,13 +3,12 @@ import { AwsIcon, DjangoIcon, PythonIcon, ReactIcon } from '@icons'
 import React from 'react'
 import Icon from '../../../../Icon'
 
-const ProjectTechStack = () => {
+const ProjectTechStack = ({techStack}) => {
   return (
     <div className='flex flex-wrap gap-2 justify-center'>
-      <Icon icon_name='aws' className="w-8 xl:w-10"/>
-      <Icon icon_name='python' className="w-8 xl:w-10"/>
-      <Icon icon_name='django' className="w-8 xl:w-10"/>
-      <Icon icon_name='react' className="w-8 xl:w-10"/>
+      {
+        techStack.map((icon, i) => <Icon key={i} icon_name={icon} className="w-8 xl:w-10"/>)
+      }
     </div>
   )
 }

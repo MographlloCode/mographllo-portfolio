@@ -51,6 +51,8 @@ const renderIcon = (icon, className) => {
             return <i className={`bx bxl-tiktok ${className}`}></i>
         case 'behance':
             return <i className={`bx bxl-behance ${className}`}></i>
+        case 'figma':
+            return <i className={`bx bxl-figma bx-md ${className}`}></i>
         case 'mail':
             return <i className={`bx bxs-envelop ${className}`}></i>
         case 'sun':
