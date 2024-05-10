@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Gustavo Mello (Mographllo) Portfolio
 
-## Getting Started
+Welcome to my UI/UX development project portfolio, available at [gmello.tech](https://www.gmello.tech/) and on GitHub at [MographlloCode](https://github.com/MographlloCode/mographllo-portfolio).
 
-First, run the development server:
+## Projects
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### 1. Real Trust
+- **Description**: Realtor platform.
+- **Technologies**: HTML, CSS, JavaScript, React, TailwindCSS.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Cycle
+- **Description**: Eco-friendly recycling app to earn rewards.
+- **Technologies**: HTML, CSS, JavaScript, React Native, TailwindCSS.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 3. Legacy eSports
+- **Description**: eSports organization.
+- **Technologies**: HTML, CSS, JavaScript, React, TailwindCSS.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+### 4. Byte Bank
+- **Description**: Landing page for digital bank.
+- **Technologies**: HTML, CSS, JavaScript, React, TailwindCSS.
 
-## Learn More
+### 5. Wellness
+- **Description**: Personal finance management app.
+- **Technologies**: HTML, CSS, JavaScript, React Native, TailwindCSS.
 
-To learn more about Next.js, take a look at the following resources:
+### 6. Goal
+- **Description**: Social network for athletes to connect with clubs and scouts.
+- **Technologies**: HTML, CSS, JavaScript, React Native, TailwindCSS.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### 7. Evo FITI
+- **Description**: Fitness social media app.
+- **Technologies**: HTML, CSS, JavaScript, React Native, TailwindCSS.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Technologies Used
+- HTML, CSS, JavaScript, React
+- Node.js, Next.js
+- Python, Django, Flask
+- TailwindCSS, Bootstrap
+- React Native
+- AWS
 
-## Deploy on Vercel
+## License
+This portfolio and all the projects included are my own work and should not be cloned or used commercially or otherwise.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## Contact
+- **Email**: contact@gmello.tech
+- **LinkedIn**: [View Profile](https://www.linkedin.com/in/mographllo)
+- **Behance**: [View Profile](https://www.behance.net/mographllo)
+- **GitHub**: [View Profile](https://www.github.com/MographlloCode)
