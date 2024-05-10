@@ -7,7 +7,7 @@ const ProjectTechStack = ({techStack}) => {
   return (
     <div className='flex flex-wrap gap-2 justify-center'>
       {
-        techStack.map((icon, i) => <Icon key={i} icon_name={icon} className="w-8 xl:w-10"/>)
+        techStack.map((icon, i) => <Icon key={i} icon_name={icon} className="w-8 xl:w-8"/>)
       }
     </div>
   )
