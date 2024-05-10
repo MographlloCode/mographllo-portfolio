@@ -13,9 +13,13 @@ const projectsData = [
                 subtitle: "",
                 projectImage: "/img/real_trust/real_trust_header.png",
                 techStack: [
+                    "javascript",
+                    "nextjs",
+                    "nodejs",
+                    "react",
                     "html",
                     "css",
-                    "javascript",
+                    "tailwind",
                     "figma",
                 ]
             },
@@ -28,9 +32,13 @@ const projectsData = [
                 subtitle: "",
                 projectImage: "/img/cycle/cycle_header.png",
                 techStack: [
+                    "javascript",
+                    "nextjs",
+                    "nodejs",
+                    "react",
                     "html",
                     "css",
-                    "javascript",
+                    "tailwind",
                     "figma",
                 ]
             },
@@ -44,9 +52,13 @@ const projectsData = [
                 mobile: true,
                 projectImage: "/img/byte_bank/byte_bank_header.png",
                 techStack: [
+                    "javascript",
+                    "nextjs",
+                    "nodejs",
+                    "react",
                     "html",
                     "css",
-                    "javascript",
+                    "tailwind",
                     "figma",
                 ]
             },
@@ -64,9 +76,13 @@ const projectsData = [
                 subtitle: "",
                 projectImage: "/img/legacy/legacy_header.png",
                 techStack: [
+                    "javascript",
+                    "nextjs",
+                    "nodejs",
+                    "react",
                     "html",
                     "css",
-                    "javascript",
+                    "tailwind",
                     "figma",
                 ]
             },
@@ -79,9 +95,13 @@ const projectsData = [
                 subtitle: "",
                 projectImage: "/img/byte_bank/byte_bank_header.png",
                 techStack: [
+                    "javascript",
+                    "nextjs",
+                    "nodejs",
+                    "react",
                     "html",
                     "css",
-                    "javascript",
+                    "tailwind",
                     "figma",
                 ]
             },
@@ -95,9 +115,13 @@ const projectsData = [
                 mobile: true,
                 projectImage: "/img/wellness/wellness_header.png",
                 techStack: [
+                    "javascript",
+                    "nextjs",
+                    "nodejs",
+                    "react",
                     "html",
                     "css",
-                    "javascript",
+                    "tailwind",
                     "figma",
                 ]
             },
@@ -115,9 +139,13 @@ const projectsData = [
                 subtitle: "",
                 projectImage: "/img/goal/goal_header.png",
                 techStack: [
+                    "javascript",
+                    "nextjs",
+                    "nodejs",
+                    "react",
                     "html",
                     "css",
-                    "javascript",
+                    "tailwind",
                     "figma",
                 ]
             },
@@ -130,9 +158,13 @@ const projectsData = [
                 subtitle: "",
                 projectImage: "/img/wellness/wellness_header.png",
                 techStack: [
+                    "javascript",
+                    "nextjs",
+                    "nodejs",
+                    "react",
                     "html",
                     "css",
-                    "javascript",
+                    "tailwind",
                     "figma",
                 ]
             },
@@ -150,9 +182,13 @@ const projectsData = [
                 subtitle: "",
                 projectImage: "/img/evo_fiti/evo_fiti_header.png",
                 techStack: [
+                    "javascript",
+                    "nextjs",
+                    "nodejs",
+                    "react",
                     "html",
                     "css",
-                    "javascript",
+                    "tailwind",
                     "figma",
                 ]
             }
