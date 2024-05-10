@@ -11,11 +11,11 @@ const PageFooter = () => {
             <p className='kenoky-light text-[#F4E285] text-xl h-6'>Portfolio 2024</p>
         </div>
         <div className='flex flex-col xl:flex-row gap-4 xl:items-center'>
-            <NavLink content='Go to Top' url='#introduction' isFooter/>
+            <NavLink content='Go to Top' url='/#introduction' isFooter/>
             <NavDivider />
-            <NavLink content='Projects' url='#projects' isFooter/>
+            <NavLink content='Projects' url='/#projects' isFooter/>
             <NavDivider />
-            <NavLink content='About Me' url='#about_me' isFooter />
+            <NavLink content='About Me' url='/#about_me' isFooter />
         </div>
         <SocialMediaNav isFooterLink/>
     </footer>

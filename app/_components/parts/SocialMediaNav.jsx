@@ -10,7 +10,6 @@ const SocialMediaNav = ({isHeader, isFooterLink}) => {
           <IconButton isLink icon_name='linkedin' target_url='https://www.linkedin.com/in/Mographllo' isBlank isSocialNav footerPart />
           <IconButton isLink icon_name='github' target_url='https://www.github.com/MographlloCode' isBlank isSocialNav footerPart/>
           <IconButton isLink icon_name='behance' target_url='https://behance.net/Mographllo' isBlank isSocialNav footerPart/>
-          <IconButton isLink icon_name='instagram' target_url='https://instagram.com/ogusmello' isBlank isSocialNav footerPart/>
           <IconButton isLink icon_name='tiktok' target_url='https://www.tiktok.com/@ogusmello' isBlank isSocialNav footerPart/>
           <IconButton isLink icon_name='mail' target_url='mailto:contact@gmello.tech' isBlank isSocialNav footerPart/>
         </>
@@ -19,7 +18,6 @@ const SocialMediaNav = ({isHeader, isFooterLink}) => {
           <IconButton isLink icon_name='linkedin' target_url='https://www.linkedin.com/in/Mographllo' isBlank isSocialNav />
           <IconButton isLink icon_name='github' target_url='https://www.github.com/MographlloCode' isBlank isSocialNav/>
           <IconButton isLink icon_name='behance' target_url='https://behance.net/Mographllo' isBlank isSocialNav />
-          <IconButton isLink icon_name='instagram' target_url='https://instagram.com/ogusmello' isBlank isSocialNav />
           <IconButton isLink icon_name='tiktok' target_url='https://www.tiktok.com/@ogusmello' isBlank isSocialNav />
           <IconButton isLink icon_name='mail' target_url='mailto:contact@gmello.tech' isBlank isSocialNav/>
         </>
